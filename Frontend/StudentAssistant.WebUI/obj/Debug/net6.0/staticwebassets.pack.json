@@ -1501,6 +1501,10 @@
       "PackagePath": "staticwebassets\\adminTheme\\icons\\weather-icons\\fonts\\weathericons-regular-webfont.woff2"
     },
     {
+      "Id": "C:\\Users\\sadik\\OneDrive\\Masaüstü\\Yeni klasör\\StudentAssistant\\Frontend\\StudentAssistant.WebUI\\wwwroot\\adminTheme\\images\\assistant.png",
+      "PackagePath": "staticwebassets\\adminTheme\\images\\assistant.png"
+    },
+    {
       "Id": "C:\\Users\\sadik\\OneDrive\\Masaüstü\\Yeni klasör\\StudentAssistant\\Frontend\\StudentAssistant.WebUI\\wwwroot\\adminTheme\\images\\avatar\\1.jpg",
       "PackagePath": "staticwebassets\\adminTheme\\images\\avatar\\1.jpg"
     },

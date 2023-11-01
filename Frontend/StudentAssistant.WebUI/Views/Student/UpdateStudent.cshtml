@@ -1,0 +1,43 @@
+﻿@using StudentAssistant.WebUI.Dtos.Student
+@model UpdateStudentDto
+@{
+    ViewData["Title"] = "UpdateStudent";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h1>Öğrenci Bilgileri Güncelleme</h1>
+
+<form method="post">
+    <input type="hidden" asp-for="StudentID"></input>
+    <label>Öğrenci Ad</label>
+    <input type="text" asp-for=Name class="form-control"></input>
+    <span asp-validation-for="Name" class="text-danger"></span>
+    <br />
+    <label>Öğrenci Soyad</label>
+    <input type="text" asp-for=Surname class="form-control"></input>
+    <span asp-validation-for="Surname" class="text-danger"></span>
+    <br />
+    <label>Öğrenci Yaş</label>
+    <input type="text" asp-for=Age class="form-control"></input>
+    <span asp-validation-for="Age" class="text-danger"></span>
+    <br />
+    <label>Öğrenci Öğrenim Durumu</label>
+    <input type="text" asp-for=Status class="form-control"></input>
+    <span asp-validation-for="Status" class="text-danger"></span>
+    <br />
+    <label>Öğrenci Bölüm</label>
+    <input type="text" asp-for=Department class="form-control"></input>
+    <span asp-validation-for="Department" class="text-danger"></span>
+    <br />
+    <label>Öğrenci Sınıf</label>
+    <input type="text" asp-for=Class class="form-control"></input>
+    <span asp-validation-for="Class" class="text-danger"></span>
+    <br />
+    <label>Öğrenci Şehir</label>
+    <input type="text" asp-for=City class="form-control"></input>
+    <span asp-validation-for="City" class="text-danger"></span>
+    <br />
+    <button class="btn btn-outline-success">Bilgileri Güncelle</button>
+</form>
+
+
