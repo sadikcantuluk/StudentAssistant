@@ -18,7 +18,7 @@ namespace DataAccessLayer.Concrete
         public DbSet<Student> Students { get; set; }
         public DbSet<Daily> Dailies { get; set; }
         public DbSet<Feeling> Feelings { get; set; }
-        public DbSet<LessonMessage> LessonMessages { get; set; }
+        public DbSet<Message> Messages { get; set; }
         public DbSet<Notes> Notes { get; set; }
     }
 }

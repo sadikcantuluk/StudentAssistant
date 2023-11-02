@@ -59,13 +59,13 @@ namespace DataAccessLayer.Migrations
                     b.ToTable("Feelings");
                 });
 
-            modelBuilder.Entity("EntityLayer.Concrete.LessonMessage", b =>
+            modelBuilder.Entity("EntityLayer.Concrete.Message", b =>
                 {
-                    b.Property<int>("LessonMessageID")
+                    b.Property<int>("MessageID")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("LessonMessageID"), 1L, 1);
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("MessageID"), 1L, 1);
 
                     b.Property<string>("Answer")
                         .IsRequired()
@@ -75,9 +75,9 @@ namespace DataAccessLayer.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.HasKey("LessonMessageID");
+                    b.HasKey("MessageID");
 
-                    b.ToTable("LessonMessages");
+                    b.ToTable("Messages");
                 });
 
             modelBuilder.Entity("EntityLayer.Concrete.Notes", b =>

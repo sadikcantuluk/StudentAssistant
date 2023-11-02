@@ -1,0 +1,41 @@
+﻿@using StudentAssistant.WebUI.Dtos.Message
+@model MessageViewModel
+@{
+    ViewData["Title"] = "Message";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+
+<div class="row">
+    <div class="col">
+        <div class="card">
+            <div class="card-body">
+                <p><h2>Message</h2></p>
+            </div>
+        </div>
+    </div>
+</div>
+<br />
+<form method="post">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col">
+                <div class="card">
+                    <div class="card-body">
+                        <input type="text" class="form-control bg-transparent" placeholder=" Soru" asp-for="Question">
+                    </div>
+                </div>
+                <button class="btn btn-primary">Gönder</button>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="card-body">
+                        <textarea class="textarea_editor form-control bg-light" rows="15" placeholder="Cevap ...">@Model.choices.FirstOrDefault().message.content</textarea>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</form>
+
+
