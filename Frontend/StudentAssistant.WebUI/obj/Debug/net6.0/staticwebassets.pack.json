@@ -1837,6 +1837,10 @@
       "PackagePath": "staticwebassets\\adminTheme\\images\\logo.png"
     },
     {
+      "Id": "C:\\Users\\sadik\\OneDrive\\Masaüstü\\Yeni klasör\\StudentAssistant\\Frontend\\StudentAssistant.WebUI\\wwwroot\\adminTheme\\images\\logoStudent.png",
+      "PackagePath": "staticwebassets\\adminTheme\\images\\logoStudent.png"
+    },
+    {
       "Id": "C:\\Users\\sadik\\OneDrive\\Masaüstü\\Yeni klasör\\StudentAssistant\\Frontend\\StudentAssistant.WebUI\\wwwroot\\adminTheme\\images\\media\\media-1.png",
       "PackagePath": "staticwebassets\\adminTheme\\images\\media\\media-1.png"
     },

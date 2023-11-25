@@ -1,0 +1,18 @@
+﻿@using StudentAssistant.WebUI.Dtos.Message
+@model MessageViewModel
+
+@{
+    ViewData["Title"] = "UploudFile";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<form method="post" enctype="multipart/form-data">
+    <input type="file" name="file" class="form-control"/>
+    <br/>
+    <button class="btn btn-dark">Dosyayı Yükle</button>
+</form>
+<br />
+<input type="text" class="form-control" placeholder="İstek ve Önerilerinizi Yazın"/>
+<br/>
+<button class="btn btn-primary">Çalışma Planını Hazırla</button>
+

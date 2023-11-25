@@ -16,12 +16,24 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\sadik\OneDrive\Masaüstü\Yeni klasör\StudentAssistant\Frontend\StudentAssistant.WebUI
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/sadik/OneDrive/Masaüstü/Yeni klasör/StudentAssistant/Frontend/StudentAssistant.WebUI/Views/BilgisayarAğları/BilgisayarAğlarıMessage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmlsZ2lzYXlhckHEn2xhcsSxXEJpbGdpc2F5YXJBxJ9sYXLEsU1lc3NhZ2UuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sadik/OneDrive/Masaüstü/Yeni klasör/StudentAssistant/Frontend/StudentAssistant.WebUI/Views/BilgisayarAğları/UploudFile.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmlsZ2lzYXlhckHEn2xhcsSxXFVwbG91ZEZpbGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/sadik/OneDrive/Masaüstü/Yeni klasör/StudentAssistant/Frontend/StudentAssistant.WebUI/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/sadik/OneDrive/Masaüstü/Yeni klasör/StudentAssistant/Frontend/StudentAssistant.WebUI/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sadik/OneDrive/Masaüstü/Yeni klasör/StudentAssistant/Frontend/StudentAssistant.WebUI/Views/Matematik/MatematikMessage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWF0ZW1hdGlrXE1hdGVtYXRpa01lc3NhZ2UuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/sadik/OneDrive/Masaüstü/Yeni klasör/StudentAssistant/Frontend/StudentAssistant.WebUI/Views/Message/Message.cshtml]
@@ -46,6 +58,14 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/sadik/OneDrive/Masaüstü/Yeni klasör/StudentAssistant/Frontend/StudentAssistant.WebUI/Views/Student/UpdateStudent.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFxVcGRhdGVTdHVkZW50LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sadik/OneDrive/Masaüstü/Yeni klasör/StudentAssistant/Frontend/StudentAssistant.WebUI/Views/StudyPlan/UploudFile.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZHlQbGFuXFVwbG91ZEZpbGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sadik/OneDrive/Masaüstü/Yeni klasör/StudentAssistant/Frontend/StudentAssistant.WebUI/Views/YazılımGerçeklemeVeTest/YazılımGerçeklemeVeTestMessage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcWWF6xLFsxLFtR2Vyw6dla2xlbWVWZVRlc3RcWWF6xLFsxLFtR2Vyw6dla2xlbWVWZVRlc3RNZXNzYWdlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/sadik/OneDrive/Masaüstü/Yeni klasör/StudentAssistant/Frontend/StudentAssistant.WebUI/Views/_ViewImports.cshtml]
