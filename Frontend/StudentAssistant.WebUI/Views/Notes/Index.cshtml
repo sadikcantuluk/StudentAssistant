@@ -1,0 +1,33 @@
+﻿@using StudentAssistant.WebUI.Dtos.Notes
+@model List<ResultNotesDto>
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h1>Notlarım</h1>
+
+<br />
+
+<div class="email-list m-t-15">
+
+    @foreach (var item in Model)
+    {
+        <div class="message">
+            <a href="/Notes/GetDetailNotes/@item.NotesID">
+                <div class="col-mail col-mail-1">
+                    <span class="star-toggle ti-star"></span>
+                </div>
+                <div class="col-mail col-mail-2">
+                    <div class="subject">@item.Subject ~ @item.NotesText</div>
+                    <div class="date">@item.Date.ToString("dd/MM/yyyy")</div>
+                </div>
+            </a>
+        </div>
+    }
+</div>
+<br />
+<a href="/Notes/AddNotes/">
+    <button class="btn btn-success">Yeni Not Al</button>
+</a>
+

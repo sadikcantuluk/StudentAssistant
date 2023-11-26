@@ -3,7 +3,7 @@ using EntityLayer.Concrete;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
-namespace NotesAssistandWebApiConsume.Controllers
+namespace StudentAssistandWebApiConsume.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
@@ -45,8 +45,9 @@ namespace NotesAssistandWebApiConsume.Controllers
         }
 
         [HttpDelete("{id}")]
-        public IActionResult DeleteNotes(Notes notes)
+        public IActionResult DeleteNotes(int id)
         {
+            var notes = _notesService.TGetById(id);
             _notesService.TDelete(notes);
             return Ok();
         }

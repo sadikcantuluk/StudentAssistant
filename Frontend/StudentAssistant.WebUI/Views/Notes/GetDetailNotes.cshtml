@@ -1,0 +1,31 @@
+﻿@using StudentAssistant.WebUI.Dtos.Notes
+@model ResultNotesDto
+@{
+    ViewData["Title"] = "GetDetailNotes";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<div class="read-content">
+    <div class="media pt-5">
+        <img class="mr-3 rounded-circle" src="~/adminTheme/images/avatar/1.jpg">
+        <div class="media-body">
+            <h5 class="m-b-3">@ViewBag.name</h5>
+            <p class="m-b-2">@Model.Date.ToString("dd/MM/yyyy")</p>
+        </div>
+        <a href="/Notes/UpdateNotes/@Model.NotesID" class="btn btn-success" style="margin-right:10px;">Güncelle</a>
+
+        <a href="/Notes/DeleteNotes/@Model.NotesID" class="btn btn-danger">Sil</a>
+    </div>
+    <hr>
+    <div class="media mb-4 mt-1">
+        <div class="media-body">
+            <span class="float-right">@Model.Date.ToString("hh:mm tt")</span>
+            <h4 class="m-0 text-primary">@Model.Subject</h4>
+        </div>
+    </div>
+    <p class="m-b-15">
+        <strong>
+            @Model.NotesText
+        </strong>
+    </p>
+</div>
