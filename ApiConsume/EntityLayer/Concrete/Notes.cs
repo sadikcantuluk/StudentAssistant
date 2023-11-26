@@ -9,6 +9,8 @@ namespace EntityLayer.Concrete
     public class Notes
     {
         public int NotesID { get; set; }
+        public string Subject { get; set; }
         public string NotesText { get; set; }
+        public DateTime Date { get; set; }
     }
 }

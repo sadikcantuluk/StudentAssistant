@@ -1,0 +1,27 @@
+﻿@using StudentAssistant.WebUI.Dtos.Daily
+@model ResultDailyDto
+@{
+    ViewData["Title"] = "GetDetailDaily";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<div class="read-content">
+    <div class="media pt-5">
+        <img class="mr-3 rounded-circle" src="~/adminTheme/images/avatar/1.jpg">
+        <div class="media-body">
+            <h5 class="m-b-3">@ViewBag.name</h5>
+            <p class="m-b-2">@Model.Date.ToString("dd/MM/yyyy")</p>
+        </div>
+        <a href="/Daily/DeleteDaily/@Model.DailyID" class="btn btn-danger">Sil</a>
+    </div>
+    <hr>
+    <div class="media mb-4 mt-1">
+        <div class="media-body">
+            <span class="float-right">@Model.Date.ToString("hh:mm tt")</span>
+        </div>
+    </div>
+    <h5 class="m-b-15">Sevgili Günlük,</h5>
+    <p>
+        @Model.DailyText
+    </p>
+</div>

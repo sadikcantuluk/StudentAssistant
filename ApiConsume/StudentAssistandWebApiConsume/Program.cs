@@ -18,6 +18,12 @@ builder.Services.AddDbContext<Context>();
 builder.Services.AddScoped<IStudentDal, EfStudentDal>();
 builder.Services.AddScoped<IStudentService, StudentManager>();
 
+builder.Services.AddScoped<INotesDal, EfNotesDal>();
+builder.Services.AddScoped<INotesService, NotesManager>();
+
+builder.Services.AddScoped<IDailyDal, EfDailyDal>();
+builder.Services.AddScoped<IDailyService, DailyManager>();
+
 
 builder.Services.AddCors(opt =>
     opt.AddPolicy("AssistantApiCors", opt =>

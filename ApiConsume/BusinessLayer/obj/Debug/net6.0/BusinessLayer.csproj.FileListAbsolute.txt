@@ -17,3 +17,4 @@ C:\Users\sadik\OneDrive\Masaüstü\Yeni klasör\StudentAssistant\ApiConsume\Busi
 C:\Users\sadik\OneDrive\Masaüstü\Yeni klasör\StudentAssistant\ApiConsume\BusinessLayer\obj\Debug\net6.0\BusinessLayer.pdb
 C:\Users\sadik\OneDrive\Masaüstü\Yeni klasör\StudentAssistant\ApiConsume\BusinessLayer\obj\Debug\net6.0\BusinessLayer.genruntimeconfig.cache
 C:\Users\sadik\OneDrive\Masaüstü\Yeni klasör\StudentAssistant\ApiConsume\BusinessLayer\obj\Debug\net6.0\ref\BusinessLayer.dll
+C:\Users\sadik\OneDrive\Masaüstü\Yeni klasör\StudentAssistant\ApiConsume\BusinessLayer\obj\Debug\net6.0\BusinessLayer.sourcelink.json

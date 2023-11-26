@@ -10,6 +10,8 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = StudentAssistant.WebUI
 build_property.RootNamespace = StudentAssistant.WebUI
 build_property.ProjectDir = C:\Users\sadik\OneDrive\Masaüstü\Yeni klasör\StudentAssistant\Frontend\StudentAssistant.WebUI\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
@@ -22,6 +24,18 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/sadik/OneDrive/Masaüstü/Yeni klasör/StudentAssistant/Frontend/StudentAssistant.WebUI/Views/BilgisayarAğları/UploudFile.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmlsZ2lzYXlhckHEn2xhcsSxXFVwbG91ZEZpbGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sadik/OneDrive/Masaüstü/Yeni klasör/StudentAssistant/Frontend/StudentAssistant.WebUI/Views/Daily/AddDaily.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGFpbHlcQWRkRGFpbHkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sadik/OneDrive/Masaüstü/Yeni klasör/StudentAssistant/Frontend/StudentAssistant.WebUI/Views/Daily/GetDetailDaily.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGFpbHlcR2V0RGV0YWlsRGFpbHkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sadik/OneDrive/Masaüstü/Yeni klasör/StudentAssistant/Frontend/StudentAssistant.WebUI/Views/Daily/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGFpbHlcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/sadik/OneDrive/Masaüstü/Yeni klasör/StudentAssistant/Frontend/StudentAssistant.WebUI/Views/Home/Index.cshtml]

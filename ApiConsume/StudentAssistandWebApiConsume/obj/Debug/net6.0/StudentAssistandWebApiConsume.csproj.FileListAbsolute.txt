@@ -261,3 +261,4 @@ C:\Users\sadik\OneDrive\Masaüstü\Yeni klasör\StudentAssistant\ApiConsume\Stud
 C:\Users\sadik\OneDrive\Masaüstü\Yeni klasör\StudentAssistant\ApiConsume\StudentAssistandWebApiConsume\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
 C:\Users\sadik\OneDrive\Masaüstü\Yeni klasör\StudentAssistant\ApiConsume\StudentAssistandWebApiConsume\bin\Debug\net6.0\StudentAssistant.WebUI.dll
 C:\Users\sadik\OneDrive\Masaüstü\Yeni klasör\StudentAssistant\ApiConsume\StudentAssistandWebApiConsume\bin\Debug\net6.0\StudentAssistant.WebUI.pdb
+C:\Users\sadik\OneDrive\Masaüstü\Yeni klasör\StudentAssistant\ApiConsume\StudentAssistandWebApiConsume\obj\Debug\net6.0\StudentAssistandWebApiConsume.sourcelink.json

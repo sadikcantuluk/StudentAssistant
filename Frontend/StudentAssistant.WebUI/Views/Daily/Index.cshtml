@@ -1,0 +1,32 @@
+﻿@using StudentAssistant.WebUI.Dtos.Daily
+@model List<ResultDailyDto>
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h1>Günlüğüm</h1>
+
+<br />
+
+<div class="email-list m-t-15">
+
+    @foreach (var item in Model)
+    {
+        <div class="message">
+            <a href="/Daily/GetDetailDaily/@item.DailyID">
+                <div class="col-mail col-mail-1">
+                    <span class="star-toggle ti-star"></span>
+                </div>
+                <div class="col-mail col-mail-2">
+                    <div class="subject">@item.DailyText</div>
+                    <div class="date">@item.Date.ToString("dd/MM/yyyy")</div>
+                </div>
+            </a>
+        </div>
+    }
+</div>
+<br/>
+<a href="/Daily/AddDaily/">
+    <button class="btn btn-success">Yeni Günlük Yaz</button>
+</a>
