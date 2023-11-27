@@ -51,6 +51,7 @@ namespace StudentAssistant.WebUI.Controllers
             var responseMessage = await client.PutAsync("https://localhost:7182/api/Student",content);
             if (responseMessage.IsSuccessStatusCode)
             {
+                await Task.Delay(3000);
                 return RedirectToAction("Index");
             }
             return View();

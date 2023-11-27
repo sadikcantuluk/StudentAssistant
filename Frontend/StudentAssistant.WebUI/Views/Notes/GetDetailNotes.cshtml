@@ -5,6 +5,12 @@
     Layout = "~/Views/Shared/_AdminLayout.cshtml";
 }
 
+<!-- SweetAlert CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@10">
+
+<!-- SweetAlert JS -->
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+
 <div class="read-content">
     <div class="media pt-5">
         <img class="mr-3 rounded-circle" src="~/adminTheme/images/avatar/1.jpg">
@@ -14,7 +20,7 @@
         </div>
         <a href="/Notes/UpdateNotes/@Model.NotesID" class="btn btn-success" style="margin-right:10px;">Güncelle</a>
 
-        <a href="/Notes/DeleteNotes/@Model.NotesID" class="btn btn-danger">Sil</a>
+        <a href="/Notes/DeleteNotes/@Model.NotesID" class="btn btn-danger" id="btnDelete">Sil</a>
     </div>
     <hr>
     <div class="media mb-4 mt-1">
@@ -29,3 +35,15 @@
         </strong>
     </p>
 </div>
+
+<script>
+    document.getElementById('btnDelete').addEventListener('click', function () {
+        Swal.fire({
+            // title: 'Uyarı!',
+            text: 'Silme işlemi başarılı..',
+            icon: 'success',
+            timer: '3000',
+            showConfirmButton: false
+        });
+    });
+</script>

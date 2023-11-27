@@ -5,6 +5,12 @@
     Layout = "~/Views/Shared/_AdminLayout.cshtml";
 }
 
+<!-- SweetAlert CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@10">
+
+<!-- SweetAlert JS -->
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+
 <h1>Günlük Yaz</h1>
 <br/>
 <div class="compose-content mt-5">
@@ -15,8 +21,19 @@
         <div class="form-group">
             <textarea class="textarea_editor form-control bg-light" rows="15" placeholder="Enter text ..." asp-for="DailyText"></textarea>
         </div>
-        <button class="btn btn-outline-primary">Kaydet</button>
+        <button class="btn btn-outline-primary" id="btnAdd">Kaydet</button>
     </form>
 </div>
 
 
+<script>
+    document.getElementById('btnAdd').addEventListener('click', function () {
+        Swal.fire({
+            // title: 'Uyarı!',
+            text: 'Ekleme işlemi başarılı..',
+            icon: 'success',
+            timer: '3000',
+            showConfirmButton: false
+        });
+    });
+</script>

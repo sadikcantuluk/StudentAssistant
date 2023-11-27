@@ -68,6 +68,7 @@ namespace StudentAssistant.WebUI.Controllers
             var responseMessage = await client.PostAsync("https://localhost:7182/api/Daily", content);
             if (responseMessage.IsSuccessStatusCode)
             {
+                await Task.Delay(3000);
                 return RedirectToAction("Index", "Daily");
             }
             return View();
@@ -96,6 +97,7 @@ namespace StudentAssistant.WebUI.Controllers
             var responseMessage = await client.PutAsync("https://localhost:7182/api/Daily", content);
             if (responseMessage.IsSuccessStatusCode)
             {
+                await Task.Delay(3000);
                 return RedirectToAction("Index");
             }
             return View();
@@ -107,6 +109,7 @@ namespace StudentAssistant.WebUI.Controllers
             var responseMessage = await client.DeleteAsync($"http://localhost:7182/api/Daily/{id}");
             if (responseMessage.IsSuccessStatusCode)
             {
+                await Task.Delay(3000);
                 return RedirectToAction("Index", "Daily");
             }
             return View();

@@ -69,6 +69,7 @@ namespace StudentAssistant.WebUI.Controllers
             var responseMessage = await client.PostAsync("https://localhost:7182/api/Notes", content);
             if (responseMessage.IsSuccessStatusCode)
             {
+                await Task.Delay(3000);
                 return RedirectToAction("Index", "Notes");
             }
             return View();
@@ -97,6 +98,7 @@ namespace StudentAssistant.WebUI.Controllers
             var responseMessage = await client.PutAsync("https://localhost:7182/api/Notes", content);
             if (responseMessage.IsSuccessStatusCode)
             {
+                await Task.Delay(3000);
                 return RedirectToAction("Index");
             }
             return View();
@@ -108,6 +110,7 @@ namespace StudentAssistant.WebUI.Controllers
             var responseMessage = await client.DeleteAsync($"http://localhost:7182/api/Notes/{id}");
             if (responseMessage.IsSuccessStatusCode)
             {
+                await Task.Delay(3000);
                 return RedirectToAction("Index", "Notes");
             }
             return View();

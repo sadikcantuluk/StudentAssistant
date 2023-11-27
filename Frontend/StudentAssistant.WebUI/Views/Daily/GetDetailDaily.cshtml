@@ -5,6 +5,12 @@
     Layout = "~/Views/Shared/_AdminLayout.cshtml";
 }
 
+<!-- SweetAlert CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@10">
+
+<!-- SweetAlert JS -->
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+
 <div class="read-content">
     <div class="media pt-5">
         <img class="mr-3 rounded-circle" src="~/adminTheme/images/avatar/1.jpg">
@@ -12,7 +18,7 @@
             <h5 class="m-b-3">@ViewBag.name</h5>
             <p class="m-b-2">@Model.Date.ToString("dd/MM/yyyy")</p>
         </div>
-        <a href="/Daily/DeleteDaily/@Model.DailyID" class="btn btn-danger">Sil</a>
+        <a href="/Daily/DeleteDaily/@Model.DailyID" class="btn btn-danger" id="btnDelete">Sil</a>
     </div>
     <hr>
     <div class="media mb-4 mt-1">
@@ -25,3 +31,15 @@
         @Model.DailyText
     </p>
 </div>
+
+<script>
+    document.getElementById('btnDelete').addEventListener('click', function () {
+        Swal.fire({
+            // title: 'Uyarı!',
+            text: 'Silme işlemi başarılı..',
+            icon: 'success',
+            timer: '3000',
+            showConfirmButton: false
+        });
+    });
+</script>

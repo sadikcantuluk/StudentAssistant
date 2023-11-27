@@ -5,6 +5,17 @@
     Layout = "~/Views/Shared/_AdminLayout.cshtml";
 }
 
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+<a href="~/lib/jquery/dist/jquery.min.map"></a>
+<script src="~/lib/jquery/dist/jquery.min.js"></script>
+<script src="~/lib/jquery/dist/jquery.js"></script>
+
+<!-- SweetAlert CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@10">
+
+<!-- SweetAlert JS -->
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+
 <h1>Öğrenci Bilgileri Güncelleme</h1>
 <br/>
 <form method="post">
@@ -37,7 +48,21 @@
     <input type="text" asp-for=City class="form-control"></input>
     <span asp-validation-for="City" class="text-danger"></span>
     <br />
-    <button class="btn btn-outline-success">Bilgileri Güncelle</button>
+    <button class="btn btn-outline-success" id="btnGüncelle">Bilgileri Güncelle</button>
+    
 </form>
+
+<script>
+    document.getElementById('btnGüncelle').addEventListener('click', function () {
+        Swal.fire({
+            // title: 'Uyarı!',
+            text: 'Güncelleme işlemi başarılı..',
+            icon: 'success',
+            timer: '3000', 
+            showConfirmButton: false
+        });
+    });
+</script>
+
 
 
