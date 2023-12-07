@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("StudentAssistandWebApiConsume")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d2bdc6d547cccb5f755d425524e82e7b5c128a1d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d0caaeb02afdb76e313ba79efff1f457c93e31d7")]
 [assembly: System.Reflection.AssemblyProductAttribute("StudentAssistandWebApiConsume")]
 [assembly: System.Reflection.AssemblyTitleAttribute("StudentAssistandWebApiConsume")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -65,7 +65,7 @@ namespace StudentAssistant.WebUI.Controllers
             multipartFormDataContent.Add(byteArrayContent, "file", file.FileName);
 
             HttpClient client = new HttpClient();
-            var responseMessage = await client.PostAsync("http://localhost:5150/api/FileImage", multipartFormDataContent);
+            var responseMessage = await client.PostAsync("http://localhost:7182/api/FileImage", multipartFormDataContent);
 
             var clientMessage = new HttpClient();
             var request = new HttpRequestMessage
